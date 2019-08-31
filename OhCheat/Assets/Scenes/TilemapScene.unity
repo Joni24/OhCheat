@@ -132,6 +132,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b63424320c94758b31cb8fa5a5ed9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &496600727 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1277389461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f991ca9a269314ded9153320ac1096d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &660369634
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +877,11 @@ PrefabInstance:
       propertyPath: characterController
       value: 
       objectReference: {fileID: 221516859}
+    - target: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c230f9c6e1604153828a08e09eabae5, type: 3}
 --- !u!1 &1993148741
@@ -978,30 +995,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122179, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122178, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122178, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122178, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122206, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: jumpForce
-      value: 1000
-      objectReference: {fileID: 0}
+    - target: {fileID: 221516867, guid: ec2be888b88f44720a269d7b5cc7549d, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 496600727}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec2be888b88f44720a269d7b5cc7549d, type: 3}
