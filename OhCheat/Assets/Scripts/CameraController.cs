@@ -7,7 +7,9 @@ public class CameraController : MonoBehaviour
 
     private void OnDisable()
     {
-        rb.velocity = new Vector2(0, rb.velocity.y);
+        if (rb != null) {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
     }
     
     private void FixedUpdate()
