@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0855590e-78e3-4c08-969f-e33051738f63" name="Default Changelist" comment="2f">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +66,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="288">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1567276911623" expanded="true" signature="54:398" ph="{...}" />
-                <marker date="1567276911623" expanded="true" signature="84:224" ph="{...}" />
-                <marker date="1567276911623" expanded="true" signature="254:396" ph="{...}" />
+                <marker date="1567277109360" expanded="true" signature="54:561" ph="{...}" />
+                <marker date="1567277109360" expanded="true" signature="84:304" ph="{...}" />
+                <marker date="1567277109360" expanded="true" signature="334:559" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -161,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -245,12 +244,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567257597153</updated>
       <workItem from="1567257601170" duration="2584000" />
-      <workItem from="1567260946739" duration="10545000" />
+      <workItem from="1567260946739" duration="11038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13129000" />
+    <option name="totallyTimeSpent" value="13622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,12 +401,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1567276911623" expanded="true" signature="54:398" ph="{...}" />
-            <marker date="1567276911623" expanded="true" signature="84:224" ph="{...}" />
-            <marker date="1567276911623" expanded="true" signature="254:396" ph="{...}" />
+            <marker date="1567277109360" expanded="true" signature="54:561" ph="{...}" />
+            <marker date="1567277109360" expanded="true" signature="84:304" ph="{...}" />
+            <marker date="1567277109360" expanded="true" signature="334:559" ph="{...}" />
           </folding>
         </state>
       </provider>
