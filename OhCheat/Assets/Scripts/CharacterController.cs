@@ -3,6 +3,7 @@
 public class CharacterController : MonoBehaviour
 {
     public float jumpForce;
+    public float dieAtYPosition = -10;
     
     private Rigidbody2D rb;
     private bool canJump;
@@ -19,6 +20,10 @@ public class CharacterController : MonoBehaviour
         
         if (hit.collider != null && Input.GetKeyDown(KeyCode.Space)) {
             rb.AddForce(Vector2.up * jumpForce);
+        }
+
+        if (this.transform.position.y < dieAtYPosition) {
+            GameManager.gameManager.Restart();
         }
     }
 }
