@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager gameManager;
 
+    public ButtonDisplay buttonDisplay;
+
     private void Awake()
     {
         gameManager = this;
