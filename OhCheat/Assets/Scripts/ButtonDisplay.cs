@@ -12,15 +12,17 @@ public class ButtonDisplay : MonoBehaviour
     }
 
     public ButtonToKey[] buttons;
+    public Color onColor = Color.red;
+    public Color offColor = Color.white;
 
     public void DisplayCurrentButton(KeyCode keycode)
     {
         foreach (var button in buttons) {
             if (button.keyCode == keycode) {
-                button.button.image.color = Color.red;
+                button.button.image.color = onColor;
             }
             else {
-                button.button.image.color = Color.white;
+                button.button.image.color = offColor;
             }
         }
     }
