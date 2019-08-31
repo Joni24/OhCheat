@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0855590e-78e3-4c08-969f-e33051738f63" name="Default Changelist" comment="" />
+    <list default="true" id="0855590e-78e3-4c08-969f-e33051738f63" name="Default Changelist" comment="2f">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,16 +14,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/CharacterController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="484">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <marker date="1567257872519" expanded="true" signature="6:32" ph="..." />
-                <marker date="1567257872519" expanded="true" signature="82:412" ph="{...}" />
-                <marker date="1567257872519" expanded="true" signature="176:230" ph="{...}" />
-                <marker date="1567257872519" expanded="true" signature="288:410" ph="{...}" />
-                <marker date="1567257872519" expanded="true" signature="340:404" ph="{...}" />
+                <marker date="1567259931292" expanded="true" signature="68:1336" ph="{...}" />
+                <marker date="1567259931292" expanded="true" signature="432:488" ph="{...}" />
+                <marker date="1567259931292" expanded="true" signature="551:1334" ph="{...}" />
+                <marker date="1567259931292" expanded="true" signature="743:1328" ph="{...}" />
+                <marker date="1567259931292" expanded="true" signature="766:872" ph="/* Calculate the distance from the surface and the &quot;error&quot; relative ... */" />
+                <marker date="1567259931292" expanded="true" signature="1018:1142" ph="/* The force is proportional to the height error, but we remove a part of it ... */" />
               </folding>
             </state>
           </provider>
@@ -32,12 +36,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" />
       </list>
     </option>
   </component>
@@ -49,11 +54,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="178" />
-    <option name="y" value="125" />
-    <option name="width" value="1084" />
-    <option name="height" value="620" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,6 +67,20 @@
     <panes>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -73,6 +91,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -118,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567257597153</updated>
-      <workItem from="1567257601170" duration="271000" />
+      <workItem from="1567257601170" duration="2271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271000" />
+    <option name="totallyTimeSpent" value="2271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -135,14 +154,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" weight="0.32863188" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
@@ -166,7 +186,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -182,12 +202,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <marker date="1567257872519" expanded="true" signature="6:32" ph="..." />
-            <marker date="1567257872519" expanded="true" signature="82:412" ph="{...}" />
-            <marker date="1567257872519" expanded="true" signature="176:230" ph="{...}" />
-            <marker date="1567257872519" expanded="true" signature="288:410" ph="{...}" />
-            <marker date="1567257872519" expanded="true" signature="340:404" ph="{...}" />
+            <marker date="1567259931292" expanded="true" signature="68:1336" ph="{...}" />
+            <marker date="1567259931292" expanded="true" signature="432:488" ph="{...}" />
+            <marker date="1567259931292" expanded="true" signature="551:1334" ph="{...}" />
+            <marker date="1567259931292" expanded="true" signature="743:1328" ph="{...}" />
+            <marker date="1567259931292" expanded="true" signature="766:872" ph="/* Calculate the distance from the surface and the &quot;error&quot; relative ... */" />
+            <marker date="1567259931292" expanded="true" signature="1018:1142" ph="/* The force is proportional to the height error, but we remove a part of it ... */" />
           </folding>
         </state>
       </provider>
