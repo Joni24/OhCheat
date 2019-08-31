@@ -22,5 +22,6 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) {
             rb.AddForce(Vector2.up * jumpForce);
         }
+        
     }
 }

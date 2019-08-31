@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0855590e-78e3-4c08-969f-e33051738f63" name="Default Changelist" comment="2f">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" afterDir="false" />
     </list>
@@ -16,15 +17,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
-                <marker date="1567259931292" expanded="true" signature="68:1336" ph="{...}" />
-                <marker date="1567259931292" expanded="true" signature="432:488" ph="{...}" />
-                <marker date="1567259931292" expanded="true" signature="551:1334" ph="{...}" />
-                <marker date="1567259931292" expanded="true" signature="743:1328" ph="{...}" />
-                <marker date="1567259931292" expanded="true" signature="766:872" ph="/* Calculate the distance from the surface and the &quot;error&quot; relative ... */" />
-                <marker date="1567259931292" expanded="true" signature="1018:1142" ph="/* The force is proportional to the height error, but we remove a part of it ... */" />
+                <marker date="1567260735469" expanded="true" signature="6:92" ph="..." />
+                <marker date="1567260735469" expanded="true" signature="142:548" ph="{...}" />
+                <marker date="1567260735469" expanded="true" signature="294:348" ph="{...}" />
+                <marker date="1567260735469" expanded="true" signature="419:546" ph="{...}" />
+                <marker date="1567260735469" expanded="true" signature="471:531" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -137,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567257597153</updated>
-      <workItem from="1567257601170" duration="2271000" />
+      <workItem from="1567257601170" duration="2584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2271000" />
+    <option name="totallyTimeSpent" value="2584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,15 +207,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="384">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
-            <marker date="1567259931292" expanded="true" signature="68:1336" ph="{...}" />
-            <marker date="1567259931292" expanded="true" signature="432:488" ph="{...}" />
-            <marker date="1567259931292" expanded="true" signature="551:1334" ph="{...}" />
-            <marker date="1567259931292" expanded="true" signature="743:1328" ph="{...}" />
-            <marker date="1567259931292" expanded="true" signature="766:872" ph="/* Calculate the distance from the surface and the &quot;error&quot; relative ... */" />
-            <marker date="1567259931292" expanded="true" signature="1018:1142" ph="/* The force is proportional to the height error, but we remove a part of it ... */" />
+            <marker date="1567260735469" expanded="true" signature="6:92" ph="..." />
+            <marker date="1567260735469" expanded="true" signature="142:548" ph="{...}" />
+            <marker date="1567260735469" expanded="true" signature="294:348" ph="{...}" />
+            <marker date="1567260735469" expanded="true" signature="419:546" ph="{...}" />
+            <marker date="1567260735469" expanded="true" signature="471:531" ph="{...}" />
           </folding>
         </state>
       </provider>
