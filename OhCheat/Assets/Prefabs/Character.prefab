@@ -13,6 +13,12 @@ GameObject:
   - component: {fileID: 8375635756336122178}
   - component: {fileID: 8375635756336122205}
   - component: {fileID: 8375635756336122206}
+  - component: {fileID: 221516864}
+  - component: {fileID: 221516865}
+  - component: {fileID: 221516866}
+  - component: {fileID: 221516867}
+  - component: {fileID: 487778962713318366}
+  - component: {fileID: 6930481142749312516}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -71,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 6a3821d3f1abe4e35a0ca622ecb0ed09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,8 +102,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05773747}
-  m_Size: {x: 0.6054704, y: 1.2022712}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6, y: 1.2}
   m_Direction: 0
 --- !u!50 &8375635756336122205
 Rigidbody2D:
@@ -132,4 +138,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b63424320c94758b31cb8fa5a5ed9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 100
+  jumpForce: 300
+--- !u!114 &221516864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6445ebd454a1d2a43b5daf7529d29c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 2
+--- !u!114 &221516865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8bada47a9d65840b5654f31bea01bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cheats:
+  - key: 99
+    script: JumpBoost
+  - key: 118
+    script: Slowmo
+  - key: 98
+    script: Speed
+  - key: 110
+    script: Ghost
+  - key: 109
+    script: Gravity
+--- !u!114 &221516866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052ea1d3b3173d1469b8c118cfa7f426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 4
+--- !u!114 &221516867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f2d11d2738fa64281342cea8c4f263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  factor: 2
+--- !u!114 &487778962713318366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c085d9358e156e43a56b5b1f25eb2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6930481142749312516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375635756336122177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613d4ec3615669941a7324bc7bedaf5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
