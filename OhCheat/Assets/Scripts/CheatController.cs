@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CheatController : MonoBehaviour
 {
@@ -24,6 +22,7 @@ public class CheatController : MonoBehaviour
             {
                 MonoBehaviour behav = (MonoBehaviour)GetComponent(cheat.script);
                 behav.enabled = !behav.enabled;
+                GameManager.gameManager.buttonDisplay.DisplayCurrentButton(cheat.key);
             }
         }
     }

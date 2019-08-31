@@ -11,7 +11,13 @@
           <e p="ButtonDisplay.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CharacterController.cs" t="Include" />
+          <e p="CheatController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="Ghost.cs" t="Include" />
+          <e p="Gravity.cs" t="Include" />
+          <e p="JumpBoost.cs" t="Include" />
+          <e p="Slowmo.cs" t="Include" />
+          <e p="Speed.cs" t="Include" />
         </e>
         <e p="Textures" t="Include">
           <e p="Base pack" t="Include">
