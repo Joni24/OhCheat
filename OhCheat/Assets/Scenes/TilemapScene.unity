@@ -3051,6 +3051,18 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &730106657 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1277389461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f991ca9a269314ded9153320ac1096d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1277389461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3063,6 +3075,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
+        type: 3}
+      propertyPath: characterController
+      value: 
+      objectReference: {fileID: 221516859}
+    - target: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1726322349}
     - target: {fileID: 6187950379843923702, guid: 1c230f9c6e1604153828a08e09eabae5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3118,16 +3140,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
-        type: 3}
-      propertyPath: characterController
-      value: 
-      objectReference: {fileID: 221516859}
-    - target: {fileID: 6187950379843923464, guid: 1c230f9c6e1604153828a08e09eabae5,
-        type: 3}
-      propertyPath: rb
-      value: 
-      objectReference: {fileID: 1726322349}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c230f9c6e1604153828a08e09eabae5, type: 3}
 --- !u!1 &1447826270
@@ -3272,6 +3284,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 8375635756336122206, guid: ec2be888b88f44720a269d7b5cc7549d,
+        type: 3}
+      propertyPath: jumpForce
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375635756336122206, guid: ec2be888b88f44720a269d7b5cc7549d,
+        type: 3}
+      propertyPath: bounds
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 8375635756336122204, guid: ec2be888b88f44720a269d7b5cc7549d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3327,11 +3349,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8375635756336122206, guid: ec2be888b88f44720a269d7b5cc7549d,
-        type: 3}
-      propertyPath: jumpForce
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 8375635756336122179, guid: ec2be888b88f44720a269d7b5cc7549d,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3352,6 +3369,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 221516867, guid: ec2be888b88f44720a269d7b5cc7549d, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 730106657}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec2be888b88f44720a269d7b5cc7549d, type: 3}
 --- !u!1001 &904923592672004805
