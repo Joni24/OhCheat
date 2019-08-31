@@ -16,6 +16,7 @@
           <e p="Ghost.cs" t="Include" />
           <e p="Gravity.cs" t="Include" />
           <e p="JumpBoost.cs" t="Include" />
+          <e p="SlimeAI.cs" t="Include" />
           <e p="Slowmo.cs" t="Include" />
           <e p="Speed.cs" t="Include" />
         </e>
