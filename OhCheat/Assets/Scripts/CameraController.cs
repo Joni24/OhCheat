@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
         rb.velocity = new Vector2(0, rb.velocity.y);
     }
     
-    private void Update()
+    private void FixedUpdate()
     {
         transform.position += Time.deltaTime * speed * Vector3.right;
         rb.velocity = new Vector2(speed, rb.velocity.y);
