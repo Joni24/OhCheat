@@ -15,7 +15,7 @@ public class CharacterController : MonoBehaviour
     private void FixedUpdate()
     {
         LayerMask mask = LayerMask.GetMask("Floor");
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.55f, mask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, mask);
         
         if (hit.collider != null && Input.GetKeyDown(KeyCode.Space)) {
             rb.AddForce(Vector2.up * jumpForce);
