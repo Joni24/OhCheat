@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0855590e-78e3-4c08-969f-e33051738f63" name="Default Changelist" comment="2f">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OhCheat/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +13,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="320">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
-                <marker date="1567275694177" expanded="true" signature="68:1011" ph="{...}" />
-                <marker date="1567275694177" expanded="true" signature="214:302" ph="{...}" />
-                <marker date="1567275694177" expanded="true" signature="334:645" ph="{...}" />
-                <marker date="1567275694177" expanded="true" signature="579:639" ph="{...}" />
-                <marker date="1567275694177" expanded="true" signature="676:1009" ph="{...}" />
-                <marker date="1567275694177" expanded="true" signature="945:1003" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="68:1126" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="267:355" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="387:760" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="416:447" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="694:754" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="791:1124" ph="{...}" />
+                <marker date="1567276867582" expanded="true" signature="1060:1118" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,14 +64,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="112">
+              <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding>
-                <marker date="1567270118158" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567270118158" expanded="true" signature="114:137" ph="{...}" />
+                <marker date="1567276911623" expanded="true" signature="54:398" ph="{...}" />
+                <marker date="1567276911623" expanded="true" signature="84:224" ph="{...}" />
+                <marker date="1567276911623" expanded="true" signature="254:396" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,6 +149,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CheatController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
       </list>
     </option>
   </component>
@@ -159,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -243,12 +245,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567257597153</updated>
       <workItem from="1567257601170" duration="2584000" />
-      <workItem from="1567260946739" duration="10131000" />
+      <workItem from="1567260946739" duration="10545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12715000" />
+    <option name="totallyTimeSpent" value="13129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,17 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1567270118158" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567270118158" expanded="true" signature="114:137" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -395,15 +386,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <marker date="1567275694177" expanded="true" signature="68:1011" ph="{...}" />
-            <marker date="1567275694177" expanded="true" signature="214:302" ph="{...}" />
-            <marker date="1567275694177" expanded="true" signature="334:645" ph="{...}" />
-            <marker date="1567275694177" expanded="true" signature="579:639" ph="{...}" />
-            <marker date="1567275694177" expanded="true" signature="676:1009" ph="{...}" />
-            <marker date="1567275694177" expanded="true" signature="945:1003" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="68:1126" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="267:355" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="387:760" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="416:447" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="694:754" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="791:1124" ph="{...}" />
+            <marker date="1567276867582" expanded="true" signature="1060:1118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <marker date="1567276911623" expanded="true" signature="54:398" ph="{...}" />
+            <marker date="1567276911623" expanded="true" signature="84:224" ph="{...}" />
+            <marker date="1567276911623" expanded="true" signature="254:396" ph="{...}" />
           </folding>
         </state>
       </provider>

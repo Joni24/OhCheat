@@ -4,7 +4,8 @@ public class CharacterController : MonoBehaviour
 {
     public float jumpForce;
     public float bounds = 20;
-
+    [SerializeField] public bool canJump = true;
+    
     private Rigidbody2D rb;
     private Camera mainCamera;
 
@@ -16,8 +17,12 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!canJump) {
+            return;
+        }
+        
         LayerMask mask = LayerMask.GetMask("Floor");
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, mask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.7f, mask);
         
         if (rb != null && hit.collider != null && Input.GetKeyDown(KeyCode.Space)) {
             rb.AddForce(Vector2.up * jumpForce);
