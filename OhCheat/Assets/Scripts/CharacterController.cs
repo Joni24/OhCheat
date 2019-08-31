@@ -4,7 +4,7 @@ public class CharacterController : MonoBehaviour
 {
     public float jumpForce;
     public float bounds = 20;
-    
+
     private Rigidbody2D rb;
     private Camera mainCamera;
 
