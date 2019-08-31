@@ -23,7 +23,7 @@ public class CharacterController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
     }
-
+    
     private void Update()
     {
         var screenPos = mainCamera.WorldToScreenPoint(transform.position);

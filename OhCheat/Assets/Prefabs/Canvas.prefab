@@ -1079,6 +1079,8 @@ MonoBehaviour:
     button: {fileID: 904923593814159227}
   - keyCode: 109
     button: {fileID: 904923593633759846}
+  onColor: {r: 0.9433962, g: 0.22694907, b: 0.22694907, a: 1}
+  offColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &904923594535781486
 GameObject:
   m_ObjectHideFlags: 0
